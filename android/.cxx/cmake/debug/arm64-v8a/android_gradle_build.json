@@ -1,0 +1,55 @@
+{
+  "stringTable": {
+    "0": "/Users/ersan/dev/edge-detector/android/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -Dnative_edge_detection_EXPORTS -I../../../../../include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info -fPIC"
+  },
+  "buildFiles": [
+    "/Users/ersan/dev/edge-detector/android/CMakeLists.txt",
+    "/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/ersan/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/ersan/dev/edge-detector/android/.cxx/cmake/debug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/ersan/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/ersan/dev/edge-detector/android/.cxx/cmake/debug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native_edge_detection-Debug-arm64-v8a": {
+      "buildCommand": "/Users/ersan/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/ersan/dev/edge-detector/android/.cxx/cmake/debug/arm64-v8a\" native_edge_detection",
+      "buildType": "debug",
+      "toolchain": "2470956522",
+      "abi": "arm64-v8a",
+      "artifactName": "native_edge_detection",
+      "files": [
+        {
+          "src": "/Users/ersan/dev/edge-detector/ios/Classes/native_edge_detection.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/ersan/dev/edge-detector/ios/Classes/edge_detector.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "/Users/ersan/dev/edge-detector/ios/Classes/image_processor.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [],
+      "output": "/Users/ersan/dev/edge-detector/example/build/simple_edge_detection/intermediates/cmake/debug/obj/arm64-v8a/libnative_edge_detection.so",
+      "runtimeFiles": [
+        "/Users/ersan/dev/edge-detector/android/src/main/jniLibs/arm64-v8a/libopencv_java4.so"
+      ]
+    }
+  },
+  "toolchains": {
+    "2470956522": {
+      "cppCompilerExecutable": "/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

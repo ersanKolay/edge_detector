@@ -1,0 +1,5 @@
+# ninja log v5
+0	1163	1645296482	CMakeFiles/native_edge_detection.dir/Users/ersan/dev/edge-detector/ios/Classes/native_edge_detection.cpp.o	d64828c85b270448
+0	1180	1645296482	CMakeFiles/native_edge_detection.dir/Users/ersan/dev/edge-detector/ios/Classes/image_processor.cpp.o	f547fcf3f072b0d2
+0	1245	1645296482	CMakeFiles/native_edge_detection.dir/Users/ersan/dev/edge-detector/ios/Classes/edge_detector.cpp.o	6ef3b30e8187791a
+1245	1309	1645296482	/Users/ersan/dev/edge-detector/example/build/simple_edge_detection/intermediates/cmake/debug/obj/x86_64/libnative_edge_detection.so	66a04aa058178d85

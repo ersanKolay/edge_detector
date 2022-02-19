@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/Users/ersan/dev/edge-detector/android/.cxx/cmake/debug/x86",
+  "command": "/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android16 --gcc-toolchain=/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_edge_detection_EXPORTS -I../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native_edge_detection.dir/Users/ersan/dev/edge-detector/ios/Classes/native_edge_detection.cpp.o -c /Users/ersan/dev/edge-detector/ios/Classes/native_edge_detection.cpp",
+  "file": "/Users/ersan/dev/edge-detector/ios/Classes/native_edge_detection.cpp"
+},
+
+{
+  "directory": "/Users/ersan/dev/edge-detector/android/.cxx/cmake/debug/x86",
+  "command": "/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android16 --gcc-toolchain=/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_edge_detection_EXPORTS -I../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native_edge_detection.dir/Users/ersan/dev/edge-detector/ios/Classes/edge_detector.cpp.o -c /Users/ersan/dev/edge-detector/ios/Classes/edge_detector.cpp",
+  "file": "/Users/ersan/dev/edge-detector/ios/Classes/edge_detector.cpp"
+},
+
+{
+  "directory": "/Users/ersan/dev/edge-detector/android/.cxx/cmake/debug/x86",
+  "command": "/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=i686-none-linux-android16 --gcc-toolchain=/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dnative_edge_detection_EXPORTS -I../../../../../include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -frtti -fexceptions -std=c++11 -O0 -fno-limit-debug-info  -fPIC   -o CMakeFiles/native_edge_detection.dir/Users/ersan/dev/edge-detector/ios/Classes/image_processor.cpp.o -c /Users/ersan/dev/edge-detector/ios/Classes/image_processor.cpp",
+  "file": "/Users/ersan/dev/edge-detector/ios/Classes/image_processor.cpp"
+}
+]

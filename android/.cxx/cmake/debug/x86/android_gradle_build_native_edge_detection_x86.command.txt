@@ -1,0 +1,7 @@
+Executable : /Users/ersan/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/ersan/dev/edge-detector/android/.cxx/cmake/debug/x86
+native_edge_detection
+jvmArgs : 
+

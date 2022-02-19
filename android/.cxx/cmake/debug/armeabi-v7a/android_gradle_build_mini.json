@@ -1,0 +1,22 @@
+{
+  "buildFiles": [
+    "/Users/ersan/dev/edge-detector/android/CMakeLists.txt",
+    "/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake",
+    "/Users/ersan/Library/Android/sdk/ndk/21.1.6352462/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/ersan/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/ersan/dev/edge-detector/android/.cxx/cmake/debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/Users/ersan/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/ersan/dev/edge-detector/android/.cxx/cmake/debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "native_edge_detection-Debug-armeabi-v7a": {
+      "artifactName": "native_edge_detection",
+      "buildCommand": "/Users/ersan/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/ersan/dev/edge-detector/android/.cxx/cmake/debug/armeabi-v7a\" native_edge_detection",
+      "abi": "armeabi-v7a",
+      "output": "/Users/ersan/dev/edge-detector/example/build/simple_edge_detection/intermediates/cmake/debug/obj/armeabi-v7a/libnative_edge_detection.so",
+      "runtimeFiles": [
+        "/Users/ersan/dev/edge-detector/android/src/main/jniLibs/armeabi-v7a/libopencv_java4.so"
+      ]
+    }
+  }
+}

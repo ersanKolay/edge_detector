@@ -8,8 +8,8 @@ build/
 
 example/
 
-
 *.iml
 
 .idea
 
+android/.cxx
